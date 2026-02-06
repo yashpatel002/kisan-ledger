@@ -1,0 +1,19 @@
+{
+    "app_name": "KisanLedger",
+    "dashboard": "Dashboard",
+    "clients": "Clients",
+    "operations": "Operations",
+    "jobs": "Jobs",
+    "expenses": "Expenses",
+    "reports": "Reports",
+    "settings": "Settings",
+    "add_new": "Add New",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "date": "Date",
+    "amount": "Amount",
+    "notes": "Notes",
+    "search": "Search..."
+}

@@ -1,0 +1,19 @@
+{
+    "app_name": "કિસાન લેજર",
+    "dashboard": "ડેેશબોર્ડ",
+    "clients": "ગ્રાહકો",
+    "operations": "કામગીરી",
+    "jobs": "કામ",
+    "expenses": "ખર્ચ",
+    "reports": "રિપોર્ટ",
+    "settings": "સેટિંગ્સ",
+    "add_new": "નવું ઉમેરો",
+    "save": "સાચવો",
+    "cancel": "રદ કરો",
+    "delete": "ડિલીટ",
+    "edit": "ફેરફાર",
+    "date": "તારીખ",
+    "amount": "રકમ",
+    "notes": "નોંધ",
+    "search": "શોધો..."
+}
