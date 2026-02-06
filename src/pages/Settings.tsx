@@ -1,11 +1,13 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { format, parseISO } from 'date-fns';
 import { db } from '../db';
 import { Download, Upload, Globe, Trash2, Database } from 'lucide-react';
 import { saveAs } from 'file-saver';
 
 const Settings: React.FC = () => {
     const { t, i18n } = useTranslation();
+    const buildDate = __BUILD_DATE__;
 
     const changeLanguage = (lng: string) => {
         i18n.changeLanguage(lng);
@@ -160,8 +162,9 @@ const Settings: React.FC = () => {
                 </button>
             </div>
 
-            <div className="text-center text-gray-400 text-xs mt-8">
-                App Version 1.0.0
+            <div className="text-center text-gray-400 text-xs mt-8 space-y-1">
+                <div>App Version 1.0.0</div>
+                <div>Last Updated: {format(parseISO(buildDate), 'dd MMM yyyy, hh:mm a')}</div>
             </div>
         </div>
     );
